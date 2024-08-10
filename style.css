@@ -1,0 +1,49 @@
+
+body{
+    background-image: url("../images/img3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.header{
+    position: relative;
+    height:100px;
+    width:100%;
+    background:rgba(221, 160, 221, 0.519);
+   
+}
+.header-logo{
+    position: relative;
+    height: 95px;
+    width: 85%;
+   
+    display: inline-block;
+    
+}
+img{
+    position: relative;
+    height: 90px;
+    margin: 5px;
+   
+}
+.signin{
+    background-color:black;
+    color:white;
+    height: 70px;
+    text-decoration: wavy;
+    font-size:15px;
+    margin-bottom: 40px;
+    padding: 5px;
+    position: relative;
+   
+}
+.div{
+	border:1px solid black;
+	margin-top: 90px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+    width:95%;
+    height: 400px;
+}
