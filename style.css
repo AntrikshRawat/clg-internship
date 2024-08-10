@@ -7,6 +7,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular',
    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
     Verdana, sans-serif;
+    text-decoration: none;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -22,14 +23,18 @@ header{
   position: relative;
   height: 6rem;
   background-color: #040F0F;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+.logo>h2{
+  display: inline-block;
+  background:linear-gradient(to right ,#6c9495,#486268);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .logo>img{
   position: relative;
-  height: 5.6rem;
-  margin: .2rem;
+  height: 5.4rem;
+  margin: 0.3rem;
 }
 .login {
   color: #040F0F;
@@ -44,10 +49,225 @@ header{
 button{
   border-radius:5px;
 }
+button:hover{
+  box-shadow: 2px 2px 5px #57737A;
+}
+button:active{
+  transform: translate(1px 1px);
+}
 .room{
   position: relative;
   height: 3rem;
   width: 10rem;
   font-size: 16px;
   background: linear-gradient(45deg , #1abc9c , #3498db);
+}
+.login-container {
+  position: relative;
+  margin: 2rem;
+  top: 10%;
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  box-shadow: rgb(31 31 31 / 17%) 0px -23px 25px 0px inset,
+    rgb(108 108 108 / 23%) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  padding: 40px;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  background: none;
+  border: 1px solid #353535;
+  padding: 15px 23px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #979797;
+  width: 100%;
+  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,
+    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.input-group input:focus {
+  border-color: #0173ed;
+  outline: none;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+  left: 35%;
+  top: 10%;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bottom-text a {
+  color: #0173ed;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+}
+
+.message, 
+.signin {
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.signin {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.register label {
+  position: relative;
+}
+
+.register label .input {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 20px 05px 05px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.register label .input + span {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 150ms linear;
+}
+
+.register label .input:placeholder-shown + span {
+  top: 12.5px;
+  font-size: 0.9em;
+}
+
+.register label .input:focus + span,
+.register label .input:valid + span {
+  top: 0px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.input {
+  font-size: medium;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #0173ed;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }
