@@ -1,43 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   outline: none;
   border: none;
-  color: #C9FBFF;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular',
-   'Lucida Grande', 'Lucida Sans Unicode', Geneva,
-    Verdana, sans-serif;
-    text-decoration: none;
+  color: #c9fbff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
-body{
-    background-image: url("../images/img3.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+body {
+  background-image: url("../images/img3.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
-header{
+header {
   position: relative;
   height: 6rem;
-  background-color: #040F0F;
+  background-color: #040f0f;
 }
-.logo>h2{
+.logo > h2 {
   display: inline-block;
-  background:linear-gradient(to right ,#6c9495,#486268);
+  background: linear-gradient(to right, #6c9495, #486268);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-.logo>img{
+.logo > img {
   position: relative;
   height: 5.4rem;
   margin: 0.3rem;
 }
 .login {
-  color: #040F0F;
+  color: #040f0f;
   width: 10rem;
   height: 3rem;
   cursor: pointer;
@@ -46,19 +45,19 @@ header{
   background-color: hsl(261deg 80% 48%);
   box-shadow: 0px 0px 5px black;
 }
-button{
-  border-radius:5px;
+button {
+  border-radius: 5px;
 }
-button:hover{
-  box-shadow: 2px 2px 5px #57737A;
+button:hover {
+  box-shadow: 2px 2px 5px #57737a;
 }
-button:active{
+button:active {
   transform: translate(1px 1px);
 }
-.room{
+.room {
   position: relative;
   height: 3rem;
   width: 10rem;
   font-size: 16px;
-  background: linear-gradient(45deg , #1abc9c , #3498db);
+  background: linear-gradient(45deg, #1abc9c, #3498db);
 }
