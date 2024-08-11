@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  color: #C9FBFF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+    background-image: url("../images/img3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.login-container {
+          position: relative;
+          margin: 2rem;
+          top: 15%;
+          background-color: #2f2f2f;
+          border-radius: 8px;
+          box-shadow: rgb(31 31 31 / 17%) 0px -23px 25px 0px inset,
+            rgb(108 108 108 / 23%) 0px -36px 30px 0px inset,
+            rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+            rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+            rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          padding: 20px 40px;
+          max-width: 380px;
+          text-align: center;
+          margin: 0 auto;
+        }
+        .login-form {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .heading {
+          color: #ffffff;
+          font-weight: 500;
+          font-size: 40px;
+          margin-bottom: 5px;
+        }
+        
+        .paragraph {
+          color: #ffffff;
+          font-weight: 400;
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+        
+        .input-group {
+          margin-bottom: 20px;
+        }
+        
+        .input-group input {
+          background: none;
+          border: 1px solid #353535;
+          padding: 15px 23px;
+          font-size: 16px;
+          border-radius: 8px;
+          color: #979797;
+          width: 100%;
+          box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,
+            rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,
+            rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+            rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+            rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        
+        .input-group input:focus {
+          border-color: #0173ed;
+          outline: none;
+        }
+                
+        .form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          max-width: 350px;
+          padding: 20px;
+          border-radius: 20px;
+          position: relative;
+          background-color: #1a1a1a;
+          color: #fff;
+          border: 1px solid #333;
+        }
+        
