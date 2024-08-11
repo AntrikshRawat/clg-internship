@@ -65,7 +65,7 @@ button:active{
 .login-container {
   position: relative;
   margin: 2rem;
-  top: 10%;
+  top: 15%;
   background-color: #2f2f2f;
   border-radius: 8px;
   box-shadow: rgb(31 31 31 / 17%) 0px -23px 25px 0px inset,
@@ -73,12 +73,16 @@ button:active{
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  padding: 40px;
-  max-width: 400px;
+  padding: 20px 40px;
+  max-width: 380px;
   text-align: center;
   margin: 0 auto;
 }
-
+.reg{
+  box-shadow: none;
+  padding: 0;
+  max-width: 350px;
+}
 .login-form {
   display: flex;
   flex-direction: column;
@@ -133,8 +137,6 @@ button:active{
   background-color: #1a1a1a;
   color: #fff;
   border: 1px solid #333;
-  left: 35%;
-  top: 10%;
 }
 
 .bottom-text {
