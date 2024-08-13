@@ -1,5 +1,5 @@
 let back = document.querySelector(".back");
 
 back.addEventListener("click", () => {
-  window.history.back();
+  window.location = "index.html";
 });
