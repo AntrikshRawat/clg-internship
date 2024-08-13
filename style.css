@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  
 }
 header {
   position: relative;
@@ -141,4 +141,63 @@ button:active {
   background: var(--bg-color);
   color: var(--main-color);
 }
+footer{
+  background-color: #333;
+ width:1460px;
+ height: 320px;
+  margin-top: auto;
+}
+/* .row{
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between ;
+  flex-wrap: wrap;
+}
+.col{
+
+  flex:1;
+  min-width: 100px;
+  margin: 10px 20px;
+  border: 1px solid black;
+}
+#id{
+   width: 363px;
+   border:1px solid black;
+   height: 400px;
+   text-align: center;
+} */
+.icons{
+  height: 80px;
+  width:280px;
+  border:solid black;
+  padding: 40px;
+}
+.run{
+  border:solid black;
+  height:600px;
+  width:1480px;
+}
+.col>ul{
+height:40px;
+width:40px;
+display: inline-block;
+}
+.col>ul>li{
+  display: inline-block;
+}
+.col>ul>li>a{
+  color:white;
+
+}
+#id1{
+  background-image: url("./images/img4.jpeg");
+}
+#id2{
+  background-image: url("./images/OIP (1).jpeg");
+}
+#id3{
+  background-image: url("./images/OIP.jpeg");
+}
+
+
 
