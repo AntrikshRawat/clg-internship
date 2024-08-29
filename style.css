@@ -15,9 +15,19 @@ body {
   background-position: center;
 }
 header {
-  position: relative;
+  position: sticky;
+  top: 4px;
+  z-index: 100;
   height: 6rem;
   background-color: #040f0f;
+  animation: fade;
+  animation-timeline: scroll();
+}
+@keyframes fade {
+  100%{
+    background: transparent;
+    background-color:darkslategrey;
+  }
 }
 .logo > h2 {
   display: inline-block;
@@ -40,14 +50,11 @@ header {
   transition: all 0.1s linear;
   box-shadow: 0px 0px 5px black;
 }
-button {
+.login {
   border-radius: 5px;
 }
-button:hover {
+.login:hover ,.room:hover {
   box-shadow: 2px 2px 5px #57737a;
-}
-button:active {
-  transform: translate(1px 1px);
 }
 .room {
   position: relative;
@@ -107,7 +114,6 @@ button:active {
   font-size: 15px;
   color: var(--submain-color);
 }
-
 .card__btn {
   margin-top: 15px;
   width: 76px;
@@ -136,18 +142,6 @@ button:active {
   background: var(--bg-color);
   color: var(--main-color);
 }
-.col-12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 20rem;
-  margin: 0;
-}
-.col-12 > ul {
-  display: inline-block;
-  height: 50%;
-}
 ul > li > a {
   text-decoration: none;
 }
@@ -165,7 +159,6 @@ ul > li > a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  bottom: 20%;
 }
 .gplay:hover,
 .astore:hover {
@@ -175,8 +168,14 @@ footer {
   position: relative;
   bottom: 0;
   background-color: #333;
-  height: 320px;
-  margin-top: auto;
+  height: max-content;
+  padding: 1rem;
+}
+.frow{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .icons {
   height: 80px;
@@ -189,16 +188,15 @@ footer {
   height: 600px;
   width: 1480px;
 }
-.col > ul {
-  height: 40px;
-  width: 40px;
-  display: inline-block;
+.col>ul>li{
+  width: 100%;
+  text-align: left;
 }
-.col > ul > li {
-  display: inline-block;
-}
-.col > ul > li > a {
-  color: white;
+.col>ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 #id1 {
   background-image: url("./images/img4.jpeg");
@@ -208,4 +206,14 @@ footer {
 }
 #id3 {
   background-image: url("./images/OIP.jpeg");
+}
+.carousel-item>img{
+  border-radius: 10px;
+}
+@media (max-width:700px) {
+  .room ,.login {
+    height: 2rem;
+    font-size: 13px;
+    padding: 4px;
+  }
 }

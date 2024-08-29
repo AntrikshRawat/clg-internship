@@ -1,0 +1,52 @@
+*{
+          padding: 0;
+          margin: 0;
+          outline: none;
+          border: none;
+}
+body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url("./images/img3.avif");
+          background-size: cover;
+          color: snow;
+}
+.container{
+          border-radius: 20px;
+}
+.gameimg{
+          position: relative;
+          height: 22rem;
+          padding: 10px;
+}
+.gameimg>img{
+          height: 20rem;
+          width:100%;
+          border-radius: 10px;
+}
+.code{
+          height: 5rem;
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center
+}
+.code>input{
+          height:2.5rem;
+          width: 68%;
+          margin: 5px;
+}
+.dropdown{
+          position: relative;
+          width: 30%;
+          height: 2.5rem;
+          margin: 15px;
+}
+.dropdown>button{
+          height: 100%;
+          width: 100%;
+}
+.copy{
+          font-size: 1rem;
+}
