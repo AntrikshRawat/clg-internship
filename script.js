@@ -3,7 +3,7 @@ if(window.location.pathname === "/index.html"){
 login.addEventListener("click", () => {
   window.location.assign("Login.html");
 });
-let anchor = document.querySelectorAll("a");
+let anchor = document.querySelectorAll("ul li a");
 anchor.forEach((a) => {
   a.addEventListener("click", (e) => {
     e.preventDefault();
