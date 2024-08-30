@@ -199,15 +199,15 @@ footer {
   align-items: center;
 }
 #id1 {
-  background-image: url("./images/freefire.jpeg");
+  background-image: url("./images/freefire2.webp");
   background-size: cover;
 }
 #id2 {
-  background-image: url("./images/amongus.jpeg");
+  background-image: url("./images/amongus.webp");
   background-size: cover;
 }
 #id3 {
-  background-image: url("./images/roadrash.jpeg");
+  background-image: url("./images/roadrash.webp");
   background-size: cover;
 }
 .carousel-item>img{
