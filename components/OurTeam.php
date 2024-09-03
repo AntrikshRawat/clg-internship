@@ -15,10 +15,10 @@
                            Welcome to Playverse!,
                            we are passionate gamers who believe in the power of competition and community. Our mission is to bring together players from all corners of the globe to compete, connect, and celebrate their love for gaming. Whether you're a seasoned pro or a casual player, our tournaments offer something for everyone.</p>
                       </div>
-                      <div class="flex flex-wrap -m-4">
+                      <div class="flex flex-wrap -m-4 justify-center">
                         <div class="p-4 lg:w-1/4 md:w-1/2">
                           <div class="h-full flex flex-col items-center text-center">
-                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/user1.jpg">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="../images/user1.jpg">
                             <div class="w-full">
                               <h2 class="title-font font-medium text-lg text-white">Antriksh Rawat</h2>
                               <h3 class="text-gray-500 mb-3"></h3>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="p-4 lg:w-1/4 md:w-1/2">
                           <div class="h-full flex flex-col items-center text-center">
-                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/user2.jpg">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="../images/user2.jpg">
                             <div class="w-full">
                               <h2 class="title-font font-medium text-lg text-white">Devanshi Vijay</h2>
                               <h3 class="text-gray-500 mb-3"></h3>
@@ -72,7 +72,7 @@
                         </div>
                         <div class="p-4 lg:w-1/4 md:w-1/2">
                           <div class="h-full flex flex-col items-center text-center">
-                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/user1.jpg">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="../images/user1.jpg">
                             <div class="w-full">
                               <h2 class="title-font font-medium text-lg text-white">Bhavya Jain</h2>
                               <h3 class="text-gray-500 mb-3"></h3>
@@ -99,7 +99,7 @@
                         </div>
                         <div class="p-4 lg:w-1/4 md:w-1/2">
                           <div class="h-full flex flex-col items-center text-center">
-                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/user1.jpg">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="../images/user1.jpg">
                             <div class="w-full">
                               <h2 class="title-font font-medium text-lg text-white">Chitraksh Sharma</h2>
                               <h3 class="text-gray-500 mb-3"></h3>

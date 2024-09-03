@@ -1,0 +1,75 @@
+.col-12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+.col-12 > ul {
+  display: inline-block;
+  height: 50%;
+}
+ul > li > a {
+  text-decoration: none;
+}
+.gplay,
+.astore {
+  position: relative;
+  height: 4rem;
+  width: 10rem;
+  margin: 0% 25%;
+  padding: 15px;
+}
+.buttons {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  bottom: 20%;
+}
+.gplay:hover,
+.astore:hover {
+  border: 1px solid black;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #333;
+  width: 100%;
+  height: 320px;
+  margin-top: auto;
+}
+.icons {
+  height: 80px;
+  width: 280px;
+  border: solid black;
+  padding: 40px;
+}
+.run {
+  border: solid black;
+  height: 600px;
+  width: 1480px;
+}
+.col > ul {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+.col > ul > li {
+  display: inline-block;
+}
+.col > ul > li > a {
+  color: white;
+}
+#id1 {
+  background-image: url("./images/img4.jpeg");
+}
+#id2 {
+  background-image: url("./images/OIP (1).jpeg");
+}
+#id3 {
+  background-image: url("./images/OIP.jpeg");
+}

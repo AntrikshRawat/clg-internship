@@ -17,22 +17,22 @@
           src="https://kit.fontawesome.com/91c32085df.js"
           crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="./createroom.css">
+        <link rel="stylesheet" href="../public/createroom.css">
 </head>
 <body>
           <div class="container bg-dark m-1 p-2">
                     <div class="gameimg">
-                    <img src="./images/img4.jpeg" alt="img">
+                    <img src="../images/freefire1.webp" alt="img">
                     </div>
                     <div class="gameinfo p-2">
-                              <h2>Game Name</h2>
+                              <h2>Free Fire</h2>
                               <div class="rating p-1">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-regular fa-star"></i>
-                                        <p class="d-inline-block">10 reviews</p>
+                                        <p class="d-inline-block">65 reviews</p>
                               </div>
                               <div class="gamedetails">
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis cupiditate, eos quod odio voluptate aut quibusdam modi hic laboriosam! Maiores nesciunt ipsam sequi blanditiis minima eveniet quasi quo saepe placeat?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolorem rerum iste dolores nemo commodi eaque voluptatum inventore. Minima labore ipsum ducimus adipisci, excepturi voluptatibus nemo aut eveniet quos? Iure!</p>
@@ -55,5 +55,6 @@
                               </div>
                     </div>
           </div>
+          <script src = "../public/script.js"></script>
 </body>
 </html>
